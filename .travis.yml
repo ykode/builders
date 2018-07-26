@@ -1,6 +1,6 @@
 sudo: required
 
-language: go
+language: c
 
 services:
   - docker
@@ -8,6 +8,9 @@ services:
 before_install:
   - docker login -u lynxluna -p ${DOCKER_PASSWORD}
   - docker pull golang:alpine
+
+install:
+  - # skip
 
 script:
   - docker build -f golang/Dockerfile -t ykode/golang-builder .
