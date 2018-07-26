@@ -1,5 +1,7 @@
 # Builders
 
+[![Build Status](https://travis-ci.org/ykode/builders.svg?branch=master)](https://travis-ci.org/ykode/builders)
+
 Day-to-day builder for linux
 
 Included builders:
